@@ -1,5 +1,26 @@
-.cor1{ background-color: red; }
-.cor2{ background-color: green; }
+.cor1{
+    background-color:hsl(0,100%,50%);
+}
+.cor2{
+    background-color: hsl(120,100%,50%);
+}
+.cor3{
+    background-color: hsl(240,50%,50%);
+}
+.cor4{
+    background-color: hsl(100,0%,50%);
+}
+
+.cor6{
+    
+    background-color: hsla(0, 100%, 50%, 1);
+}
+
+
+
+/*
+.cor1{ background-color: hsl(0, 100%, 50%); }
+.cor2{ background-color: hsl(hue, saturation, lightness); }
 .cor3{ background-color: blue; }
 .cor4{ background-color: yellow; }
 .cor5{ background-color: aquamarine; }
@@ -17,3 +38,9 @@ h1{
 
 
 /* comenta */
+
+/* hsl(hue, saturation, lightness) 
+
+hue= e o tom da cor (matiz)
+saturation= quanto menos % vai tirando o brilho da cor 
+lightness=quanto mais % voce deixa claro e quanto menos % voce deixa escuro 
